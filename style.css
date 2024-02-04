@@ -3,6 +3,16 @@
   padding: 0;
   box-sizing: border-box; }
 
+@font-face {
+		font-family: Montserrat;
+		src: url('font-Montserrat/Montserrat-Black.ttf') format('ttf'),
+         url('font-Montserrat/Montserrat-Bold.ttf') format('ttf'),
+         url('font-Montserrat/Montserrat-ExtraBold.ttf') format('ttf'),
+         url('font-Montserrat/Montserrat-Regular.ttf') format('ttf'),
+				 url('font-Montserrat/Montserrat-Medium.ttf') format('ttf');
+		font-display: swap;
+	}
+
 @keyframes text_change {
   0%,
   100% {
@@ -22,7 +32,7 @@
 
 body {
   font-size: 1.2rem;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Montserrat-Medium', 'Roboto mono', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
